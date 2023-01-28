@@ -1,11 +1,9 @@
 class Script(object):
 
-    START_MSG = """────「 <a href="https://te.legra.ph/file/581797978596af1e19a71.mp4>ᴢᴇʀᴏ ᴛᴡᴏ</a> 」────
-やあ Kon'ichiwa {} 
+    START_MSG = """
+やあ Kon'ichiwa {},
 I'm Zero Two An Kawaii Advanced Unlimited Filter Bot.
 ───────────────────────
-Verified Under
-@KxOfficial || @MaximXTeam
 """
 
 
