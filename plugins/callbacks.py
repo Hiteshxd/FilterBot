@@ -30,8 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Add Me", url="http://t.me/Kx02Bot?startgroup=new"),
-                    InlineKeyboardButton("Commands", callback_data="help_data")
+                    InlineKeyboardButton("Help Commands", callback_data="help_data")
                 ]
             ]
         )
@@ -53,7 +52,7 @@ async def cb_handler(client, query):
                 ],
                 [
                     InlineKeyboardButton("Channel", url="https://t.me/KxOfficial"),
-                    InlineKeyboardButton("Support", url="https://t.me/KxAssistant")
+                    InlineKeyboardButton("Support️", url="https://t.me/KxAssistant")
                 ]
             ]
         )
@@ -73,6 +72,12 @@ async def cb_handler(client, query):
                     InlineKeyboardButton(
                         "SOURCE CODE", url="https://t.me/KxOfficial")
                 ],
+                [
+                    InlineKeyboardButton("BACK", callback_data="help_data"),
+                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                ]                
+            ]
+        )
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("CLOSE", callback_data="close_data"),
