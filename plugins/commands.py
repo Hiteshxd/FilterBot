@@ -247,8 +247,8 @@ async def help(client, message):
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("Channel 📢", url="https://t.me/KxOfficial"),
-                    InlineKeyboardButton("Support 👮🏻‍♀️", url="https://t.me/KxAssistant")
+                    InlineKeyboardButton("Channel", url="https://t.me/KxOfficial"),
+                    InlineKeyboardButton("Support", url="https://t.me/KxAssistant")
                 ]
             ]
         ),
