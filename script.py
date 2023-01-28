@@ -1,9 +1,13 @@
 class Script(object):
 
     START_MSG = """
-やあ Kon'ichiwa {},
-I'm Zero Two An Kawaii Advanced Unlimited Filter Bot.
-───────────────────────
+<b>やあ</b> Kon'ichiwa {},
+I'm <b>Zero Two</b> An Advanced Filter Bot With Nearly <b>Unlimited Filters!</b>
+
+👉🏻 <b>Add me in a Supergroup</b> and promote me as <b>Admin</b> to let me get in action!
+ 
+❓ <b>WHICH ARE THE COMMANDS?</b> ❓
+Press /help to see <b>all the commands</b> and how they work!
 """
 
 
